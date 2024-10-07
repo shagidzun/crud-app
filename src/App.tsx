@@ -45,6 +45,7 @@ function EditArticle({
 			open={isOpen}
 			onClose={onClose}
 			transitionDuration={0}
+			disableScrollLock
 			PaperProps={{ sx: { width: '100%', maxWidth: 738 } }}
 		>
 			<DialogTitle>{isNewArticle ? 'Добавить новость' : 'Редактирование'}</DialogTitle>
